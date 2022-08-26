@@ -3,6 +3,7 @@
     
     <TheHeader />
     <TheHome />
+    <TheFooter />
     
   </div>
 </template>
@@ -11,13 +12,15 @@
 import './styles/global.css';
 import TheHeader from './components/Header';
 import TheHome from './pages/Home';
+import TheFooter from './components/Footer.vue';
 
 
 export default {
   name: 'App',
   components: {
     TheHeader,
-    TheHome
+    TheHome,
+    TheFooter
 }
 }
 </script>
